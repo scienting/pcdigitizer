@@ -25,8 +25,8 @@ def test_source_annotations(mock_session):
     assert len(annotations["Compound"]) == 246
 
 
-def test_annotations():
-    annotations = PubChemAPI.get_annotations()
+def test_annotations(mock_session):
+    annotations = PubChemAPI.get_annotations(session=mock_session)
     annotation_types = sorted(annotations.keys())
     assert annotation_types == [
         "Assay",

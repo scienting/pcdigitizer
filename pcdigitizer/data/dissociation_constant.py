@@ -73,16 +73,16 @@ class FlatPKaRecord(TypedDict):
     """
 
     pka_label: str | None
-    """See [`ParsedPKa`][data.dissociation_constant.ParsedPKa.pka_label]."""
+    """See [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa.pka_label]."""
 
     pka_value: float
-    """See [`ParsedPKa`][data.dissociation_constant.ParsedPKa.pka_value]."""
+    """See [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa.pka_value]."""
 
     temperature_C: float | None
-    """See [`ParsedPKa`][data.dissociation_constant.ParsedPKa.temperature_C]."""
+    """See [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa.temperature_C]."""
 
     comment: str | None
-    """See [`ParsedPKa`][data.dissociation_constant.ParsedPKa.comment]."""
+    """See [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa.comment]."""
 
 
 _OUTPUT_SCHEMA: dict[str, type[pl.DataType]] = {
@@ -101,27 +101,27 @@ class DissociationConstantData(AnnotationProcessor):
     """Parse and assemble PubChem dissociation constant annotation data.
 
     All methods are static or class methods. The primary public interface is
-    [`from_page`][data.dissociation_constant.DissociationConstantData.from_page],
+    [`from_page`][pcdigitizer.data.dissociation_constant.DissociationConstantData.from_page],
     which converts a raw list of PubChem annotation
     entries into a tidy polars DataFrame.
 
     The parsing pipeline for free-text pKa strings is the following.
 
-    1. [`parse_value`][data.dissociation_constant.DissociationConstantData.parse_value]
+    1. [`parse_value`][pcdigitizer.data.dissociation_constant.DissociationConstantData.parse_value]
         is the top-level dispatcher. It first checks for
         the "pKa values are X, Y, and Z" sentence form via
-        [`_parse_multi_value_sentence`][data.dissociation_constant.DissociationConstantData._parse_multi_value_sentence].
+        [`_parse_multi_value_sentence`][pcdigitizer.data.dissociation_constant.DissociationConstantData._parse_multi_value_sentence].
         If that does not match it splits the input on semicolons and delegates each
         segment to
-        [`_parse_part`][data.dissociation_constant.DissociationConstantData._parse_part].
+        [`_parse_part`][pcdigitizer.data.dissociation_constant.DissociationConstantData._parse_part].
 
-    2. [`_parse_part`][data.dissociation_constant.DissociationConstantData._parse_part]
+    2. [`_parse_part`][pcdigitizer.data.dissociation_constant.DissociationConstantData._parse_part]
         tries each compiled pattern in
-        [`_PATTERNS`][data.dissociation_constant.DissociationConstantData._PATTERNS]
+        [`_PATTERNS`][pcdigitizer.data.dissociation_constant.DissociationConstantData._PATTERNS]
         in priority order via
-        [`_try_patterns`][data.dissociation_constant.DissociationConstantData._try_patterns],
+        [`_try_patterns`][pcdigitizer.data.dissociation_constant.DissociationConstantData._try_patterns],
         returning the first successful
-        [`ParsedPKa`][data.dissociation_constant.ParsedPKa] or `None`.
+        [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa] or `None`.
 
     3. Patterns are compiled once at class definition time and reused across all calls.
 
@@ -197,7 +197,7 @@ class DissociationConstantData(AnnotationProcessor):
     Only used when a label group is present from one of the above patterns;
     this pattern has no label group intentionally, so bare numbers without
     any pK context are always rejected (see
-    [`_parse_part`][data.dissociation_constant.DissociationConstantData._parse_part]
+    [`_parse_part`][pcdigitizer.data.dissociation_constant.DissociationConstantData._parse_part]
     for the label guard).
     """
 
@@ -226,7 +226,7 @@ class DissociationConstantData(AnnotationProcessor):
             line: The raw input string to test.
 
         Returns:
-            A list of [`ParsedPKa`][data.dissociation_constant.ParsedPKa] records,
+            A list of [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa] records,
                 one per numeric value found in the sentence, or `None` if this
                 sentence form is not present in `line`.
         """
@@ -262,7 +262,7 @@ class DissociationConstantData(AnnotationProcessor):
                 semicolons).
 
         Returns:
-            A [`ParsedPKa`][data.dissociation_constant.ParsedPKa] record if a pattern
+            A [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa] record if a pattern
                 matches and a label is present, or `None` if no pattern yields
                 a valid match.
         """
@@ -302,20 +302,20 @@ class DissociationConstantData(AnnotationProcessor):
         """Parse a single semicolon-split segment of a pKa string.
 
         Delegates to
-        [`_try_patterns`][data.dissociation_constant.DissociationConstantData._try_patterns]
+        [`_try_patterns`][pcdigitizer.data.dissociation_constant.DissociationConstantData._try_patterns]
         and logs a warning when no pattern matches, so that
-        [`parse_value`][data.dissociation_constant.DissociationConstantData.parse_value]
+        [`parse_value`][pcdigitizer.data.dissociation_constant.DissociationConstantData.parse_value]
         stays free of logging concerns.
 
         Args:
             part: A single segment, already stripped of leading/trailing
                 whitespace and surrounding quotes.
             original_line: The full original input line, passed through to
-                [`_try_patterns`][data.dissociation_constant.DissociationConstantData._try_patterns]
+                [`_try_patterns`][pcdigitizer.data.dissociation_constant.DissociationConstantData._try_patterns]
                 for provenance.
 
         Returns:
-            A [`ParsedPKa`][data.dissociation_constant.ParsedPKa] record, or
+            A [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa] record, or
                 `None` if the segment could not be matched to any known pKa format.
         """
         result = cls._try_patterns(part, original_line)
@@ -389,7 +389,7 @@ class DissociationConstantData(AnnotationProcessor):
         The input may contain one or more pKa values separated by
         semicolons, or a prose sentence listing multiple values. Each
         recognized value is returned as a
-        [`ParsedPKa`][data.dissociation_constant.ParsedPKa]
+        [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa]
         record. Segments that cannot be matched to any known format are logged at
         WARNING level and excluded from the output.
 
@@ -404,7 +404,7 @@ class DissociationConstantData(AnnotationProcessor):
                 - `"pKa = 20"`
 
         Returns:
-            A list of [`ParsedPKa`][data.dissociation_constant.ParsedPKa] records,
+            A list of [`ParsedPKa`][pcdigitizer.data.dissociation_constant.ParsedPKa] records,
                 one per recognized pKa value. Returns an empty list if no values
                 could be parsed.
         """
@@ -438,9 +438,9 @@ class DissociationConstantData(AnnotationProcessor):
 
         Args:
             annotation_data: A list of annotation entry dicts as returned by
-                [`get_data`][pubchem.PubChemAPI.get_data] for
+                [`get_data`][pcdigitizer.pubchem.PubChemAPI.get_data] for
                 the `"Dissociation Constants"` heading. Each entry is
-                expected to conform to [`AnnotationEntry`][responses.AnnotationEntry].
+                expected to conform to [`AnnotationEntry`][pcdigitizer.responses.AnnotationEntry].
 
         Returns:
             A polars DataFrame with one row per parsed pKa value

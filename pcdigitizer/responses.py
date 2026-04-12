@@ -31,9 +31,9 @@ PubChem responses follow two broad envelope shapes depending on the endpoint:
 ```
 
 Within both envelopes each `Annotation` element is an
-[`AnnotationEntry`][responses.AnnotationEntry]. When the entry was fetched via
+[`AnnotationEntry`][pcdigitizer.responses.AnnotationEntry]. When the entry was fetched via
 PUG-View (i.e. a specific heading), it additionally carries a `Data` list whose
-elements are [`PubChemDatum`][responses.PubChemDatum] records containing the
+elements are [`PubChemDatum`][pcdigitizer.responses.PubChemDatum] records containing the
 deposited values.
 
 ## Hierarchy
@@ -61,7 +61,7 @@ from typing import TypedDict
 
 class MatchedRecord(TypedDict, total=False):
     """The `Matched` sub-object within an
-    [`ExtendedReference`][responses.ExtendedReference] entry.
+    [`ExtendedReference`][pcdigitizer.responses.ExtendedReference] entry.
 
     Carries identifiers that link a specific deposited value to its
     corresponding record in PubChem's live data system.
@@ -103,7 +103,7 @@ class DatumValue(TypedDict, total=False):
     """The `Value` object on a single data point within an annotation.
 
     PubChem data points can carry several value types (numeric, boolean, binary).
-    This class models only the [`StringWithMarkup`][responses.StringWithMarkup]
+    This class models only the [`StringWithMarkup`][pcdigitizer.responses.StringWithMarkup]
     variant, which is the form used for textual property data such as pKa strings.
     """
 
@@ -117,14 +117,14 @@ class DatumValue(TypedDict, total=False):
 class PubChemDatum(TypedDict, total=False):
     """A single data point within a PubChem PUG-View annotation entry.
 
-    Each [`AnnotationEntry`][responses.AnnotationEntry] fetched from a specific heading
+    Each [`AnnotationEntry`][pcdigitizer.responses.AnnotationEntry] fetched from a specific heading
     contains a `Data` list whose elements are `PubChemDatum` records. Each datum
     represents one deposited measurement or value from a single source.
     """
 
     Value: DatumValue
     """
-    The deposited value, in [`StringWithMarkup`][responses.StringWithMarkup]
+    The deposited value, in [`StringWithMarkup`][pcdigitizer.responses.StringWithMarkup]
     form for textual properties.
     """
 

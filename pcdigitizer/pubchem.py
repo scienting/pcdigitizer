@@ -20,7 +20,7 @@ class PubChemAPI:
 
     All methods are class methods or static methods; no instance state is
     required. Network access is centralized in
-    [`make_request`][pubchem.PubChemAPI.make_request] so that it can
+    [`make_request`][pcdigitizer.pubchem.PubChemAPI.make_request] so that it can
     be replaced with a mock session during testing.
     """
 
@@ -82,7 +82,7 @@ class PubChemAPI:
         Args:
             url: The fully constructed PubChem REST URL to fetch.
             session: An optional [`Session`][requests.Session] forwarded to
-                [`make_request`][pubchem.PubChemAPI.make_request].
+                [`make_request`][pcdigitizer.pubchem.PubChemAPI.make_request].
                 See that method for details.
 
         Returns:
@@ -90,7 +90,7 @@ class PubChemAPI:
 
         Raises:
             RuntimeError: If the HTTP request fails (propagated from
-                [`make_request`][pubchem.PubChemAPI.make_request]).
+                [`make_request`][pcdigitizer.pubchem.PubChemAPI.make_request]).
             json.JSONDecodeError: If the response body is not valid JSON.
         """
         text = cls.make_request(url, session=session)
@@ -139,7 +139,7 @@ class PubChemAPI:
 
         Raises:
             ValueError: If `domain` is not in
-                [`ALLOWED_NAMESPACES`][pubchem.PubChemAPI.ALLOWED_NAMESPACES].
+                [`ALLOWED_NAMESPACES`][pcdigitizer.pubchem.PubChemAPI.ALLOWED_NAMESPACES].
             ValueError: If the namespace key is not valid for the given domain.
             ValueError: If `identifiers` is empty for a domain that requires it.
             ValueError: If `identifiers` contains characters outside the
@@ -244,7 +244,7 @@ class PubChemAPI:
         Args:
             domain: The PubChem domain to query (e.g. `"compound"`,
                 `"annotations"`). Must be a key in
-                [`ALLOWED_NAMESPACES`][pubchem.PubChemAPI.ALLOWED_NAMESPACES].
+                [`ALLOWED_NAMESPACES`][pcdigitizer.pubchem.PubChemAPI.ALLOWED_NAMESPACES].
             namespace: The namespace within the domain, optionally with a
                 `/`-separated value (e.g. `"name"`, `"sourcename/ChEBI"`).
             pug: The PUG endpoint variant to use. Must be one of `"pug"`,
@@ -262,15 +262,15 @@ class PubChemAPI:
 
         Returns:
             A fully constructed, validated HTTPS URL string ready to pass to
-                [`make_request`][pubchem.PubChemAPI.make_request].
+                [`make_request`][pcdigitizer.pubchem.PubChemAPI.make_request].
 
         Raises:
             ValueError: If `pug` is not a recognized endpoint variant.
             ValueError: If `domain`, `namespace`, or `identifiers` fail
                 validation (propagated from
-                [`_validate_components`][pubchem.PubChemAPI._validate_components]).
+                [`_validate_components`][pcdigitizer.pubchem.PubChemAPI._validate_components]).
             ValueError: If the resulting URL fails the safety check
-                (propagated from [`_validate_url`][pubchem.PubChemAPI._validate_url]).
+                (propagated from [`_validate_url`][pcdigitizer.pubchem.PubChemAPI._validate_url]).
         """
         if pug not in cls._VALID_PUG_ENDPOINTS:
             raise ValueError(
@@ -313,7 +313,7 @@ class PubChemAPI:
 
         Args:
             session: An optional [`Session`][requests.Session] forwarded to
-                [`make_request`][pubchem.PubChemAPI.make_request]. Pass a mock during
+                [`make_request`][pcdigitizer.pubchem.PubChemAPI.make_request]. Pass a mock during
                 testing to avoid live network calls.
 
         Returns:
@@ -357,21 +357,21 @@ class PubChemAPI:
 
         Retrieves annotations from the `annotations/sourcename/<source>`
         endpoint and groups them by type via
-        [`_process_annotations`][pubchem.PubChemAPI._process_annotations].
+        [`_process_annotations`][pcdigitizer.pubchem.PubChemAPI._process_annotations].
 
         Note:
             `output_format` is not exposed as a parameter here because
-            [`make_json`][pubchem.PubChemAPI.make_json] always expects a JSON response.
+            [`make_json`][pcdigitizer.pubchem.PubChemAPI.make_json] always expects a JSON response.
             To retrieve raw non-JSON data from this endpoint, use
-            [`build_url`][pubchem.PubChemAPI.build_url] and
-            [`make_request`][pubchem.PubChemAPI.make_request] directly.
+            [`build_url`][pcdigitizer.pubchem.PubChemAPI.build_url] and
+            [`make_request`][pcdigitizer.pubchem.PubChemAPI.make_request] directly.
 
         Args:
             source_name: The PubChem depositor source name to query
                 (e.g. `"ChEBI"`). Forward slashes are replaced with
                 periods as required by the PubChem API.
             session: An optional [`Session`][requests.Session] forwarded to
-                [`make_request`][pubchem.PubChemAPI.make_request]. Pass a mock during
+                [`make_request`][pcdigitizer.pubchem.PubChemAPI.make_request]. Pass a mock during
                 testing to avoid live network calls.
 
         Returns:
@@ -412,7 +412,7 @@ class PubChemAPI:
 
         Args:
             session: An optional [`Session`][requests.Session] forwarded to
-                [`make_request`][pubchem.PubChemAPI.make_request]. Pass a mock during
+                [`make_request`][pcdigitizer.pubchem.PubChemAPI.make_request]. Pass a mock during
                 testing to avoid live network calls.
 
         Returns:
@@ -457,11 +457,11 @@ class PubChemAPI:
                 Must be a positive integer. If `None`, all results are
                 returned.
             session: An optional [`Session`][requests.Session]Session` forwarded to
-                [`make_request`][pubchem.PubChemAPI.make_request]. Pass a mock during
+                [`make_request`][pcdigitizer.pubchem.PubChemAPI.make_request]. Pass a mock during
                 testing to avoid live network calls.
 
         Returns:
-            A list of [`AnnotationEntry`][responses.AnnotationEntry] dicts for the
+            A list of [`AnnotationEntry`][pcdigitizer.responses.AnnotationEntry] dicts for the
                 requested data, in the order returned by the API.
 
         Raises:

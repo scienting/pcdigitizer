@@ -1,0 +1,67 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Python source files
+*.py text eol=lf diff=python
+*.pyi text eol=lf diff=python
+*.ipynb text eol=lf
+
+# Config / project files
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
+*.env text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Docs
+*.md text eol=lf diff=markdown
+*.rst text eol=lf
+
+# Crystallography / structure deposition
+*.pdb text eol=lf
+*.cif text eol=lf
+*.mmcif text eol=lf
+*.ccp4 text eol=lf
+
+# Cheminformatics
+*.sdf text eol=lf
+*.smi text eol=lf
+*.mol text eol=lf
+*.mol2 text eol=lf
+*.mae text eol=lf
+*.maegz binary
+*.sln text eol=lf
+
+# General data formats
+*.parquet binary
+*.arrow binary
+*.feather binary
+*.pkl binary
+*.pickle binary
+*.npy binary
+*.npz binary
+*.csv text eol=lf
+*.tsv text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text eol=lf
+*.ico binary
+*.webp binary
+*.tif binary
+*.tiff binary
+
+# Linguist overrides
+pixi.lock linguist-language=YAML linguist-generated=true
+*.lock linguist-generated=true
+*.log linguist-detectable=false
+*.out linguist-detectable=false
+*.dlg linguist-detectable=false

@@ -1,0 +1,31 @@
+[project]
+name = "pcdigitizer"
+authors = [
+    {name = "Scientific Computing Studio", email = "us@scient.ing"}
+]
+maintainers = [
+    {name = "Alex M. Maldonado", email = "alex@scient.ing"}
+]
+description = "Turn raw PubChem data into clean, ML-ready chemical datasets"
+dynamic = ["version"]
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "loguru>=0.7.2,<1.0.0",
+    "beautifulsoup4>=4.13.4,<5",
+    "polars>=1.30.0,<2",
+]
+
+[build-system]
+requires = ["setuptools>=80", "setuptools-scm>=8", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pcdigitizer*"]
+
+[tool.setuptools_scm]
+write_to = "pcdigitizer/_version.py"
+version_scheme = "guess-next-dev"
+local_scheme = "node-and-timestamp"

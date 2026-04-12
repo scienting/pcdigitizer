@@ -1,0 +1,83 @@
+[workspace]
+name = "pcdigitizer"
+authors = [
+    "Scientific Computing Studio <us@scient.ing>",
+]
+channels = ["conda-forge"]
+description = "Turn raw PubChem data into clean, ML-ready chemical datasets"
+platforms = ["linux-64", "osx-64", "osx-arm64"]
+readme = "README.md"
+version = "26.4.10"
+
+[pypi-dependencies]
+pcdigitizer = { path = ".", editable = true }
+raygent = { git = "https://github.com/scienting/raygent", branch = "main" }
+
+[environments]
+dev = ["dev"]
+docs = ["docs"]
+
+[tasks]
+
+[dependencies]
+python = ">=3.13"
+loguru = ">=0.7.3,<0.8"
+beautifulsoup4 = ">=4.13.4,<5"
+polars = ">=1.30.0,<2"
+
+[feature.dev.dependencies]
+ruff = ">=0.11.10,<0.12"
+ty = ">=0.0.25,<0.1.0"
+setuptools = ">=82.0.0,<83"
+setuptools-scm = ">=9.2.2,<10"
+wheel = ">=0.46.3,<0.47"
+pytest = ">=9.0.2,<10"
+pytest-cov = ">=4.1.0"
+coverage = ">=7.3.1"
+twine = ">=6.1.0,<7"
+bump-my-version = ">=1.2.7,<2"
+
+[feature.dev.tasks]
+lint = { cmd = ["ruff", "check", "--fix", "--config", ".ruff.toml", "./"] }
+format = { depends-on = ["lint"], cmd = ["ruff", "check", "--select", "I", "--fix", "&&", "ruff", "format", "--config", ".ruff.toml", "./"] }
+tests = { cmd = [
+    "PYTHONPATH=.",
+    "pytest",
+    "-c",
+    ".pytest.ini",
+    "--cov='pcdigitizer'",
+    "--cov-report=xml",
+    "--junit-xml=report.xml",
+    "--failed-first",
+]}
+coverage = { cmd = ["coverage", "report"] }
+cleanup-build = { cmd = ["rm", "-rf", "./build"] }
+bump = { cmd = ["bump-my-version", "bump", "patch"] }
+build = { cmd = ["python3", "-m", "build"], depends-on = ["cleanup-build"]}
+publish-test = { cmd = ["twine", "upload", "--repository", "testpypi", "dist/*"] }
+publish = { cmd = ["twine", "upload", "dist/*"] }
+
+[feature.dev.pypi-dependencies]
+build = ">=1.2.2.post1,<2"
+setuptools-scm = ">=8.0.0"
+
+[feature.docs.dependencies]
+# Will need to migrate to https://zensical.org/ once it matures.
+mkdocs = ">=1.6.1,<2"
+mkdocs-material = ">=9.5.44,<10"
+mkdocstrings = ">=1.0.3,<2"
+mkdocstrings-python = ">=2.0.2,<3"
+mkdocs-macros-plugin = ">=1.5.0,<2"
+mkdocs-glightbox = ">=0.5.2,<0.6"
+mkdocs-git-revision-date-localized-plugin = ">=1.2.9,<2"
+mkdocs-autorefs = ">=1.4.4,<2"
+mkdocs-gen-files = ">=0.6.0,<0.7"
+pymdown-extensions = ">=10.21,<11"
+super-collections = ">=0.6.2,<0.7"
+
+[feature.docs.tasks]
+docs = { cmd = ["rm", "-rf", "./public/", "&&", "mkdocs", "build", "-d", "public/"] }
+docs-serve = { cmd = ["mkdocs", "serve"] }
+
+[feature.docs.pypi-dependencies]
+mkdocs-awesome-nav = ">=3.3.0, <4"

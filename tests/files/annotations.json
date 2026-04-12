@@ -1,0 +1,2810 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "11B NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "13C NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "15N NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "17O NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "19F NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "1D NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "1H NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "1H-13C NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "1H-1H NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "29Si NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "31P NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Absorption, Distribution and Excretion",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Absorption, Distribution and Excretion (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Accelerating Rate Calorimetry (ARC)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Acceptable Daily Intakes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Acceptable Daily Intakes (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Accidental Release Measures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Acid Value",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Acute Effects",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Acute Exposure Guideline Levels (AEGLs)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Acute Toxicity Link",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Adverse Effects",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "AEGLs Notes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "AEGLs Table",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Agrochemical Category",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Agrochemical Transformations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "AIDS Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Air and Water Reactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Alliance Gene ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Allowable Tolerances",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Allowable Tolerances (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Analytic Laboratory Methods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Analytic Laboratory Methods (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Animal Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Animal Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Animal Drugs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Antidote and Emergency Treatment",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Antidote and Emergency Treatment (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "AphiaID",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Artificial Pollution Sources",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Artificial Pollution Sources (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Associated Article",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Associated Chemicals",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Associated Chemicals (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Associated Disorders and Diseases",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Associated Foods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ATC Code",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Atmospheric Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Atmospheric Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Atmospheric Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Atmospheric Standards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Atomic Mass, Half Life, and Decay",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Atomic Number",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Atomic Radius",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Atomic Spectra",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Atomic Weight",
+        "Type": "Element"
+      },
+      {
+        "Heading": "ATR-IR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Autoignition Temperature",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Availability Type",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Average Daily Intake",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Average Daily Intake (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Beilstein References",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Bgee Gene ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "BioAssay Annotations",
+        "Type": "Assay"
+      },
+      {
+        "Heading": "Biochemical Reactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biochemical Reactions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Biochemical Reactions",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Biologic Depiction",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biologic Line Notation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biological Half-Life",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biological Half-Life (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biologics",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biomarker Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biomarker Information",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Biomarker Information",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Bionecessity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Bionecessity (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Black Box Warning",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Body Burden",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Body Burden (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Boiling Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Boiling Point",
+        "Type": "Element"
+      },
+      {
+        "Heading": "BRENDA EC Number",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "BRENDA Tissue Ontology ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Caco2 Permeability",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Cancer Drugs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Cancer Sites",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Carcinogen Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CCDC Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CDD Domains",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Cell Line Ontology ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Cell Lines",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Cell Model Passports",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Cell Ontology ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Cell Type",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Cellosaurus ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Cellular Locations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CERCLA Reportable Quantities",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CERCLA Reportable Quantities (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ChEBI ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ChEMBL Cell Line ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "ChEMBL ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ChEMBL Target ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Chemical Classes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Chemical Dangers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Chemical Probes",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Chemical Probes",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Chemical-Gene Interactions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Chemical-Protein Interactions",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Chemical-Target Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Chemical-Target Interactions",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Classification Codes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Clean Water Act Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Cleanup Methods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Cleanup Methods (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Clinical Laboratory Methods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Clinical Laboratory Methods (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ClinicalTrials.gov",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "COD Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "COL ID",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Collision Cross Section",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Color Additive Status",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Color/Form",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Color/Form (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Compounds",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Consumer Uses",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Consumption Patterns",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Consumption Patterns (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Coronavirus Studies",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Corrosivity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Cosmetics",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "COSMIC ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Creators",
+        "Type": "Pathway"
+      },
+      {
+        "Heading": "Critical Temperature & Pressure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Crystal Structure Data",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CSL Reaction Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DEA Code Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DEA Controlled Substances",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DEA Drug and Chemical Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DEA Listed Chemicals",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Decomposition",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Density",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Density",
+        "Type": "Element"
+      },
+      {
+        "Heading": "DepMap ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Deprecated CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Description",
+        "Type": "Element"
+      },
+      {
+        "Heading": "DHS Chemicals of Interest (COI)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Diagram",
+        "Type": "Pathway"
+      },
+      {
+        "Heading": "Dielectric Constant",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Dietary Ingredients",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Dietary Supplements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Differential Scanning Calorimetry (DSC)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Disease and References",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Diseases",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Dispersion",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Disposal Methods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Disposal Methods (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Dissociation Constants",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DOT Emergency Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DOT Emergency Guidelines (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DOT Hazard Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DOT ID and Guide",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DOT Label",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Classes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Effects during Lactation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Idiosyncrasies",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Indication",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Induced Liver Injury",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Labels",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Sensitivity",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Drug Targets",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Tolerance",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Transformations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Warnings",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Warnings (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug-Drug Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug-Food Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DrugBank ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DrugBank Target ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "DrugCentral",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drugs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drugs",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Drugs",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "DSSTox Substance ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EC Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ecotoxicity Excerpts",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ecotoxicity Excerpts (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ecotoxicity Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ecotoxicity Values (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Effects During Pregnancy and Lactation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Effects of Long Term Exposure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Effects of Short Term Exposure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Effluent Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Effluent Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EFSA Genotoxicity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EFSA Hazard Characterization: Reference Points",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EFSA Hazard Characterization: Reference Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EFSA Outputs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EFSA Substance Characterization",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Electron Affinity",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Electron Configuration",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Electronegativity",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Element Classification",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Element Forms",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Element Group Number",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Element Name",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Element Period Number",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Element Symbol",
+        "Type": "Element"
+      },
+      {
+        "Heading": "EMA Drug Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Emergency Response Planning Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Emergency Response Planning Guidelines (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Encoding Gene",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Endocrine Disruptors",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ensembl ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Enthalpy of Sublimation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Abiotic Degradation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Abiotic Degradation (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Bioconcentration",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Bioconcentration (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Biodegradation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Biodegradation (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Fate",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Fate (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Fate/Exposure Summary",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Water Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Water Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Enzyme Commission (EC) Number",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "EOL Page ID",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "EPA Ecotoxicity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EPA Hazardous Waste Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EPA Human Health Benchmarks for Pesticides",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EPA IRIS Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EPA Provisional Peer-Reviewed Toxicity Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EPA Safer Chemical",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Estimated Crustal Abundance",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Estimated Oceanic Abundance",
+        "Type": "Element"
+      },
+      {
+        "Heading": "EU Clinical Trials Register",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EU Pesticides Data",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "European Community (EC) Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Evaluations of the Joint FAO/WHO Expert Committee on Food Additives - JECFA",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Evidence for Carcinogenicity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Evidence for Carcinogenicity (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Experimental Factor Ontology ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Explosion Hazards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Explosive Limits and Potential",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Explosive Limits and Potential (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Exposure Control and Personal Protection",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Exposure Prevention",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Exposure Routes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Expression",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Eye Prevention",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Approved Drugs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Food Contact Substances (FCS)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Generally Recognized as Safe - GRAS Notices",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Green Book",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Green Book Patents",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Medication Guides",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA National Drug Code Directory",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Orange Book",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Orange Book Patents",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Pharmacological Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Purple Book",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Requirements (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Substances Added to Food",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Federal Drinking Water Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Federal Drinking Water Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Federal Drinking Water Standards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FEMA Flavor Profile",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FEMA Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FIFRA Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FIFRA Requirements (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Fighting",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Fighting Procedures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Fighting Procedures (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Hazards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Potential",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Prevention",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Firefighting Hazards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Firefighting Hazards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "First Aid",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "First Aid Measures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "First Approval",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fish/Seafood Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fish/Seafood Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Flame Retardants",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Flammable Limits",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Flash Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Flavoring Agents",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FlyBase ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Food Additive Classes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Additive Definition",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Additives",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Additives and Ingredients",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Compounds",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Food Contact Substances",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Survey Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Survey Values (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Formulations/Preparations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Formulations/Preparations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fragrances",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FTIR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GC",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GC-MS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GDSC",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "GenCC ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Gene Family",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Gene-Disease Associations",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "General Manufacturing Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "General Manufacturing Information (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Genes",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "GHR Health Conditions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "GHS Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Glycans",
+        "Type": "Pathway"
+      },
+      {
+        "Heading": "Glycans",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "GlycoGenes",
+        "Type": "Pathway"
+      },
+      {
+        "Heading": "GlyConnect Cell Line",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "GlyConnect Protein",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "GlyConnect Structure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GlyConnect Taxonomy",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "GlycoPathways",
+        "Type": "Pathway"
+      },
+      {
+        "Heading": "GlycoProteins",
+        "Type": "Pathway"
+      },
+      {
+        "Heading": "GlyCosmos Gene",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "GlyCosmos Monoisotopic Mass",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GlyCosmos Protein",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "GlyCosmos Species",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GlyCosmos Subsumption",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GlyCosmos Tissue/Organ",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Glycosylation",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "GlyGen Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GlyGen Motifs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GlyGen Protein",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "GlyTouCan Accession",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GNOme ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ground Level",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Guide to PHARMACOLOGY Target ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Handling and Storage",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Hazard Classes and Categories",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazard Quotient Level 0.1 or Cancer Risk Level 1E-06",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazard Quotient Level 3 or Cancer Risk Level 1E-04",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazardous Reactivities & Incompatibilities",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazardous Reactivities and Incompatibilities",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazardous Reactivities and Incompatibilities (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazardous Substances DataBank Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazards Identification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazards Summary",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Health Effects",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Health Hazards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Heat of Combustion",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Heat of Vaporization",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Henry's Law Constant",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hepatotoxicity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "HGNC ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Highly Hazardous Substance",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Historical Atomic Weights",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Historical Isotopic Abundances",
+        "Type": "Element"
+      },
+      {
+        "Heading": "History",
+        "Type": "Element"
+      },
+      {
+        "Heading": "History and Incidents",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "History and Incidents (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "HIV/AIDS and Opportunistic Infection Drugs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "HMDB ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "HMS LINCS ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Household Products",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "HPA ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "HPLC",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "HSDB Note",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "HTS Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Drugs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Toxicity Excerpts",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Toxicity Excerpts (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Toxicity Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Toxicity Values (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hydrophobicity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ICSC Environmental Data",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ICSC Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "IFRA Fragrance Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Immediately Dangerous to Life or Health (IDLH)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Impurities",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Impurities (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Industry Uses",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ingestion Prevention",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ingestion Symptoms",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Inhalation Prevention",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Inhalation Risk",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "IntAct Protein",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Interactions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Interactions",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Interactions (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "International Nonproprietary Names (INN)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "InterPro Domains",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "InterPro Protein",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Ionization Efficiency",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ionization Energy",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Ionization Potential",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "IR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Isoelectric Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Isolation and Evacuation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Isotope Mass and Abundance",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotope Mass and Composition",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotopes",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotopes in Biology",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotopes in Earth/Planetary Science",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotopes in Forensic Science and Anthropology",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotopes in Geochronology",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotopes in Industry",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotopes in Medicine",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotopes Used as a Source of Radioactive Isotope(s)",
+        "Type": "Element"
+      },
+      {
+        "Heading": "ITIS Serial Number",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Japan PMDA Drugs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "JECFA Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "KEGG Diseases",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "KEGG Gene",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "KEGG ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Kovats Retention Index",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Last Review Date",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Last Revision Date",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LC-MS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LINCS ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Lipid Maps ID (LM_ID)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Lipids",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LiverTox Summary",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LogP",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LogS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Lower Explosive Limit (LEL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "MALDI",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "MALDI Recipes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Manufacturers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Max Phase",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Maximum Drug Dose",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Mechanism of Action",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Mechanism of Action (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "MedGen Diseases",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Medical Surveillance",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Medical Surveillance (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Melting Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Melting Point",
+        "Type": "Element"
+      },
+      {
+        "Heading": "MeSH ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "MetaboLights",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Metabolism/Metabolites",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Metabolism/Metabolites (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Metabolite Pathways",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Metabolites",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Metabolomics Workbench ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Methods of Manufacturing",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Methods of Manufacturing (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "MGI ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "MICAD Imaging Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Milk Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Milk Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "MIM Number",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Minerals",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Minimum Risk Level",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Molecular Formula",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Molecular Imaging Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Molecular Weight",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Monosaccharide Composition",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "MS-MS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Names and Synonyms",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "National Toxicology Program Studies",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "National Toxicology Program Studies (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Natural Pollution Sources",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Natural Pollution Sources (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Natural Products",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Nature Journal References",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NCBI Pathogen Detection Reference Gene Catalog",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "NCBI Protein Structures",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "NCBI Protein Structures",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Near IR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NFPA Hazard Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Nikkaji Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NIOSH Analytical Methods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NIOSH Recommendations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NIOSH Recommendations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NIOSH Toxicity Data",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NIPH Clinical Trials Search of Japan",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NLM Resources (File Locators)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Non-Human Toxicity Excerpts",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Non-Human Toxicity Excerpts (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Non-Human Toxicity Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Non-Human Toxicity Values (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Nonfire Spill Response",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NSC Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Occupational Exposure Limits (OEL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Odor",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Odor Threshold",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Odor Threshold (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "OMIM Phenotypes",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Ongoing Test Status",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Open Targets ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Open Targets ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Optical Rotation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "OSHA Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "OSHA Standards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Environmental Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Environmental Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Experimental Properties",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Experimental Properties (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Hazardous Reactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other MS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Resources (Internet Locators)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Safety Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Standards Regulations and Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Standards Regulations and Guidelines (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Oxidation States",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Packaging and Labelling",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Patents",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "PDB Structures",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "PDB Structures",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "PDBe Conformer",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "PDBe Ligand Code",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "PDBe Structure Code",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Permethylated Mass",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Permissible Exposure Limit (PEL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Peroxide Forming Chemical",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Personal Protection",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Personal Protective Equipment (PPE)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Personal Protective Equipment (PPE) (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Pesticides",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "PFAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "pH",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Pharmacodynamics",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "PharmGKB ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "PharmGKB ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Pharos Ligand ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Pharos Target",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Pharos Target",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Physical Dangers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Physical Description",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Physical Description",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Phytotoxins",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Plant Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Plant Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Plasticizers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Polymerization",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Polymers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "PomBase Systematic ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Populations at Special Risk",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Populations at Special Risk (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Preventive Measures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Preventive Measures (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "PRO ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Probable Routes of Human Exposure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Probable Routes of Human Exposure (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Production",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Protein Binding",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Protein Bound 3D Structures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Protein Function",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Protein Isoforms",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Protein-Disease Associations",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Radiation Limits and Potential",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Radiation Limits and Potential (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RAIS Toxicity Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Raman Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RCRA Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RCRA Requirements (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Reactive Group",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Reactivity Alerts",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Reactivity Profile",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Recommended Exposure Limit (REL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Refractive Index",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RefSeq Accession",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Regulatory Agencies (Superlist Locators)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Regulatory Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Related CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Related HSDB Records",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Related Records",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Relative Evaporation Rate",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Reported Fatal Dose",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Respirator Recommendations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Restriction Limits in the Finished Product (%)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RGD ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Route of Administration",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RTECS Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RXCUI",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Safe Storage",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Safety and Toxicology Links",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sampling Procedures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sampling Procedures (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sediment/Soil Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sediment/Soil Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Self-Accelerating Decomposition Temperature (SADT)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sequence",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "SGD ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Shipment Methods and Regulations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Shipment Methods and Regulations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Shipping Name/ Number DOT/UN/NA/IMO",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Shipping Name/ Number DOT/UN/NA/IMO (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Signs and Symptoms",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Skin Prevention",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Skin Symptoms",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Skin, Eye, and Respiratory Irritations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Soil Adsorption/Mobility",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Soil Adsorption/Mobility (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Soil Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Solubility",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Solubility (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Solvents",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sources",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Special Reports",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Special Reports (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Spillage Disposal",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Springer Nature References",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "SpringerMaterials Properties",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Stability/Shelf Life",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Stability/Shelf Life (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Standard Transportation Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "State Drinking Water Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "State Drinking Water Guidelines (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "State Drinking Water Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "State Drinking Water Standards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Storage Conditions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Storage Conditions (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "STRING Protein ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Substance Title",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Superlist Classification Codes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Surface Tension",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Surfactants",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Synonyms",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Synonyms",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Synonyms",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Synonyms and Identifiers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Synthesis References",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Target Development Level",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Target Development Level",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Target Interactions",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Target Organs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Taste",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Taxonomy",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Therapeutic Uses",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Therapeutic Uses (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Thieme References",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Threshold Limit Values (TLV)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Threshold Limit Values (TLV) (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Tissue Locations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Toxic Combustion Products",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Toxic-by-Inhalation (TIH) Gas",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Toxicity Data",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Toxicity Summary",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Toxicological Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Transformations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Treatment",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "TSCA Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "TSCA Test Submissions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "TSCA Test Submissions (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Exports",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Exports (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Imports",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Imports (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Production",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Production (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UN Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UN Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UNII",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UniProt ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "UniProt Taxon ID",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "United States Adopted Name (USAN)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Update History",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Upper Explosive Limit (UEL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "USDA Pesticide Data Program",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Use and Manufacturing",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Use Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Uses",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Uses",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Uses (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "USGS Health-Based Screening Levels for Evaluating Water-Quality",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UV Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UV-VIS Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UVCB",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Vapor Density",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Vapor Phase IR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Vapor Pressure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "VEuPathDB ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Viscosity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Volatilization from Water/Soil",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Volatilization from Water/Soil (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "WHO Essential Medicines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Wikidata",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Wikidata",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Wikidata",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Wikidata",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Wikidata",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Wikipedia",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Wiley References",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Withdrawn",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "WormBase ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "WormBase ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Xenbase Gene ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "ZFIN ID",
+        "Type": "Gene"
+      }
+    ]
+  }
+}

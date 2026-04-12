@@ -3,8 +3,8 @@ import polars as pl
 from pcdigitizer import Annotation, PubChemAPI
 
 
-def test_source_df():
-    df = PubChemAPI.get_sources()
+def test_source_df(mock_session):
+    df = PubChemAPI.get_sources(session=mock_session)
 
     columns = df.columns
     assert len(columns) == 23
@@ -18,9 +18,9 @@ def test_source_df():
     assert source_count == 1
 
 
-def test_source_annotations():
+def test_source_annotations(mock_session):
     annotations = PubChemAPI.get_source_annotations(
-        "Hazardous Substances Data Bank (HSDB)"
+        "Hazardous Substances Data Bank (HSDB)", session=mock_session
     )
     assert len(annotations["Compound"]) == 246
 

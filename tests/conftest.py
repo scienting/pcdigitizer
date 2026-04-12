@@ -42,6 +42,15 @@ def mock_session(test_dir):
             if "heading/Dissociation" in url:
                 fixture = test_dir / "files" / "dissociation-constants-1.json"
                 return FakeResponse(fixture.read_bytes())
+            if "annotations/sourcename/Hazardous" in url:
+                fixture = test_dir / "files" / "hsdb.json"
+                return FakeResponse(fixture.read_bytes())
+            if "/annotations/headings/" in url:
+                fixture = test_dir / "files" / "annotations.json"
+                return FakeResponse(fixture.read_bytes())
+            if "rest/pug/sourcetable/all/CSV" in url:
+                fixture = test_dir / "files" / "sourcetable.csv"
+                return FakeResponse(fixture.read_bytes())
             return FakeResponse(b'{"Fault": "not found"}', status_code=404)
 
     return FakeSession()

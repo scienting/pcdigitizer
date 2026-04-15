@@ -1,0 +1,80 @@
+# https://editorconfig.org
+root = true
+
+# Global defaults
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Python
+[*.{py,pyi}]
+indent_size = 4
+max_line_length = 88
+
+[*.ipynb]
+indent_size = 2
+
+# Config / markup
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.{toml,cfg,ini}]
+indent_size = 4
+
+[*.json]
+indent_size = 2
+
+[*.{md,rst}]
+trim_trailing_whitespace = false
+
+# Shell / scripts
+[*.{sh,bash,zsh}]
+indent_size = 2
+end_of_line = lf
+
+[*.{bat,cmd,ps1}]
+end_of_line = crlf
+
+# Web / docs
+[*.{html,htm,xml,css,js,ts}]
+indent_size = 2
+
+[*.svg]
+indent_size = 2
+
+# Structural biology: text formats
+[*.{pdb,ent,cif,mmcif}]
+indent_style = unset
+indent_size = unset
+trim_trailing_whitespace = false
+
+# Cheminformatics
+[*.{sdf,mol,mol2}]
+indent_style = unset
+indent_size = unset
+trim_trailing_whitespace = false
+
+[*.{smi,sln,mae}]
+indent_size = 4
+
+# Data files
+[*.{csv,tsv}]
+trim_trailing_whitespace = false
+indent_style = unset
+indent_size = unset
+
+# Patches and special files
+[*.{diff,patch}]
+trim_trailing_whitespace = false
+end_of_line = unset
+
+[{LICENSE,LICENSE.md,COPYING}]
+insert_final_newline = false
+
+[*.{log,out}]
+trim_trailing_whitespace = false
+insert_final_newline = false

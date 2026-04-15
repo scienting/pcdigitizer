@@ -1,0 +1,990 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "13C NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "1D NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "1H NMR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Absorption, Distribution and Excretion",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Absorption, Distribution and Excretion (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Acceptable Daily Intakes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Acceptable Daily Intakes (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Allowable Tolerances",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Allowable Tolerances (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Analytic Laboratory Methods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Analytic Laboratory Methods (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Animal Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Animal Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Antidote and Emergency Treatment",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Antidote and Emergency Treatment (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Artificial Pollution Sources",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Artificial Pollution Sources (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Associated Chemicals",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Associated Chemicals (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Atmospheric Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Atmospheric Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Atmospheric Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Atmospheric Standards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Autoignition Temperature",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Average Daily Intake",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Average Daily Intake (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biological Half-Life",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biological Half-Life (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Bionecessity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Bionecessity (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Body Burden",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Body Burden (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Boiling Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CERCLA Reportable Quantities",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CERCLA Reportable Quantities (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Clean Water Act Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Cleanup Methods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Cleanup Methods (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Clinical Laboratory Methods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Clinical Laboratory Methods (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Color/Form",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Color/Form (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Consumption Patterns",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Consumption Patterns (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Corrosivity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Critical Temperature & Pressure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DOT Emergency Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DOT Emergency Guidelines (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Decomposition",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Density",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Dielectric Constant",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Dispersion",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Disposal Methods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Disposal Methods (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Dissociation Constants",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Idiosyncrasies",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Tolerance",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Warnings",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Warnings (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EPA Hazardous Waste Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ecotoxicity Excerpts",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ecotoxicity Excerpts (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ecotoxicity Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ecotoxicity Values (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Effluent Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Effluent Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Emergency Response Planning Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Emergency Response Planning Guidelines (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Abiotic Degradation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Abiotic Degradation (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Bioconcentration",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Bioconcentration (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Biodegradation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Biodegradation (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Fate",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Fate (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Fate/Exposure Summary",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Water Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Environmental Water Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Evidence for Carcinogenicity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Evidence for Carcinogenicity (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Explosive Limits and Potential",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Explosive Limits and Potential (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Requirements (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FIFRA Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FIFRA Requirements (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Federal Drinking Water Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Federal Drinking Water Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Federal Drinking Water Standards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Fighting Procedures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Fighting Procedures (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Potential",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Firefighting Hazards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Firefighting Hazards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fish/Seafood Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fish/Seafood Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Flammable Limits",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Flash Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Survey Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Survey Values (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Formulations/Preparations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Formulations/Preparations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GHS Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "General Manufacturing Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "General Manufacturing Information (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "HSDB Note",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazardous Reactivities and Incompatibilities",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazardous Reactivities and Incompatibilities (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazardous Substances DataBank Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazards Summary",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Heat of Combustion",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Heat of Vaporization",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Henry's Law Constant",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "History and Incidents",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "History and Incidents (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Toxicity Excerpts",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Toxicity Excerpts (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Toxicity Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Toxicity Values (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "IR Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Immediately Dangerous to Life or Health (IDLH)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Impurities",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Impurities (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Interactions (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Last Review Date",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Last Revision Date",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LogP",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Manufacturers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Maximum Drug Dose",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Mechanism of Action",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Mechanism of Action (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Medical Surveillance",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Medical Surveillance (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Melting Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Metabolism/Metabolites",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Metabolism/Metabolites (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Methods of Manufacturing",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Methods of Manufacturing (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Milk Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Milk Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Molecular Formula",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Molecular Weight",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NFPA Hazard Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NIOSH Recommendations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NIOSH Recommendations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "National Toxicology Program Studies",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "National Toxicology Program Studies (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Natural Pollution Sources",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Natural Pollution Sources (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Non-Human Toxicity Excerpts",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Non-Human Toxicity Excerpts (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Non-Human Toxicity Values",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Non-Human Toxicity Values (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "OSHA Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "OSHA Standards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Odor",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Odor Threshold",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Odor Threshold (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ongoing Test Status",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Optical Rotation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Environmental Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Environmental Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Experimental Properties",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Experimental Properties (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Hazardous Reactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other MS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Standards Regulations and Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Standards Regulations and Guidelines (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Personal Protective Equipment (PPE)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Personal Protective Equipment (PPE) (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Plant Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Plant Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Polymerization",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Populations at Special Risk",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Populations at Special Risk (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Preventive Measures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Preventive Measures (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Probable Routes of Human Exposure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Probable Routes of Human Exposure (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RCRA Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RCRA Requirements (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Radiation Limits and Potential",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Radiation Limits and Potential (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Raman Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Refractive Index",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Related HSDB Records",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Relative Evaporation Rate",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Reported Fatal Dose",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sampling Procedures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sampling Procedures (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sediment/Soil Concentrations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Sediment/Soil Concentrations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Shipment Methods and Regulations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Shipment Methods and Regulations (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Shipping Name/ Number DOT/UN/NA/IMO",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Shipping Name/ Number DOT/UN/NA/IMO (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Skin, Eye, and Respiratory Irritations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Soil Adsorption/Mobility",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Soil Adsorption/Mobility (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Soil Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Solubility",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Solubility (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Special Reports",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Special Reports (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Stability/Shelf Life",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Stability/Shelf Life (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Standard Transportation Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "State Drinking Water Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "State Drinking Water Guidelines (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "State Drinking Water Standards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "State Drinking Water Standards (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Storage Conditions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Storage Conditions (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Substance Title",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Surface Tension",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Synonyms and Identifiers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "TSCA Requirements",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "TSCA Test Submissions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "TSCA Test Submissions (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Taste",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Therapeutic Uses",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Therapeutic Uses (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Threshold Limit Values (TLV)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Threshold Limit Values (TLV) (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Toxic Combustion Products",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Toxicity Summary",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Exports",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Exports (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Imports",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Imports (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Production",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Production (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UV Spectra",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Update History",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Uses",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Uses (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Vapor Density",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Vapor Pressure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Viscosity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Volatilization from Water/Soil",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Volatilization from Water/Soil (Complete)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "pH",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

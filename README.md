@@ -2,7 +2,7 @@
 
 <h4 align="center">Turn raw PubChem data into clean, ML-ready chemical datasets</h4>
 
-`pcdigitizer` is a Python toolkit for building ML-ready chemical datasets from [PubChem](https://pubchem.ncbi.nlm.nih.gov/).
+`pcdigitizer` is a Python package for building ML-ready chemical datasets from [PubChem](https://pubchem.ncbi.nlm.nih.gov/).
 It handles the full pipeline: downloading raw data through PubChem's [PUG-REST API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest), parsing nested and inconsistent response formats, and cleaning the results into structured [Polars](https://pola.rs/) DataFrames ready for analysis or model training.
 
 PubChem is the largest open chemical database in the world, but its data comes from thousands of depositors with varying formats, conventions, and quality levels.

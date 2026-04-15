@@ -1,0 +1,12 @@
+name: CLA Status Check
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  verify-cla:
+    uses: scienting/cla/.github/workflows/cla-verify.yml@main
